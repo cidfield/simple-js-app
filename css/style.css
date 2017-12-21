@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Risque', cursive; */
+/* font-family: 'Indie Flower', cursive; */
+font-family: 'Pacifico', cursive;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 32px;
+  color: #292b2c;
+  line-height: 1.2;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.wrapper{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.box-green{
+  padding: 30px 50px;
+  background: lightgreen;
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.box-blue{
+  padding: 30px 50px;
+  background: skyblue;
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.box-red{
+  padding: 30px 50px;
+  background: darkred;
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media(max-width: 771px){
+  .box-green{
+    padding: 20px 40px;
+    background: lightgreen;
+    width: 55%;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  .box-blue{
+    padding: 20px 40px;
+    background: skyblue;
+    width: 55%;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  .box-red{
+    padding: 20px 40px;
+    background: darkred;
+    width: 55%;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 4px;
+  }
+}
+
+@media(max-width: 630px){
+  .box-green{
+    padding: 20px 40px;
+    background: lightgreen;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .box-blue{
+    padding: 20px 40px;
+    background: skyblue;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .box-red{
+    padding: 20px 40px;
+    background: darkred;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
